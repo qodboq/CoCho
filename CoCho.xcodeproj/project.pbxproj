@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		89DA15852EF2A4CE00D87B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DA156D2EF2A4CD00D87B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DA15742EF2A4CD00D87B2E;
+			remoteInfo = CoCho;
+		};
+		89DA158F2EF2A4CE00D87B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DA156D2EF2A4CD00D87B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DA15742EF2A4CD00D87B2E;
+			remoteInfo = CoCho;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89DA15752EF2A4CD00D87B2E /* CoCho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoCho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DA15842EF2A4CE00D87B2E /* CoChoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoChoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DA158E2EF2A4CE00D87B2E /* CoChoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoChoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		894A27252EFAFD3F0029449B /* Exceptions for "CoCho" folder in "CoCho" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 89DA15742EF2A4CD00D87B2E /* CoCho */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		89DA15772EF2A4CD00D87B2E /* CoCho */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				894A27252EFAFD3F0029449B /* Exceptions for "CoCho" folder in "CoCho" target */,
+			);
+			path = CoCho;
+			sourceTree = "<group>";
+		};
+		89DA15872EF2A4CE00D87B2E /* CoChoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoChoTests;
+			sourceTree = "<group>";
+		};
+		89DA15912EF2A4CE00D87B2E /* CoChoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoChoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DA15722EF2A4CD00D87B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DA15812EF2A4CE00D87B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DA158B2EF2A4CE00D87B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DA156C2EF2A4CD00D87B2E = {
+			isa = PBXGroup;
+			children = (
+				89DA15772EF2A4CD00D87B2E /* CoCho */,
+				89DA15872EF2A4CE00D87B2E /* CoChoTests */,
+				89DA15912EF2A4CE00D87B2E /* CoChoUITests */,
+				89DA15762EF2A4CD00D87B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89DA15762EF2A4CD00D87B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DA15752EF2A4CD00D87B2E /* CoCho.app */,
+				89DA15842EF2A4CE00D87B2E /* CoChoTests.xctest */,
+				89DA158E2EF2A4CE00D87B2E /* CoChoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DA15742EF2A4CD00D87B2E /* CoCho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DA15982EF2A4CE00D87B2E /* Build configuration list for PBXNativeTarget "CoCho" */;
+			buildPhases = (
+				89DA15712EF2A4CD00D87B2E /* Sources */,
+				89DA15722EF2A4CD00D87B2E /* Frameworks */,
+				89DA15732EF2A4CD00D87B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				89DA15772EF2A4CD00D87B2E /* CoCho */,
+			);
+			name = CoCho;
+			packageProductDependencies = (
+			);
+			productName = CoCho;
+			productReference = 89DA15752EF2A4CD00D87B2E /* CoCho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89DA15832EF2A4CE00D87B2E /* CoChoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DA159B2EF2A4CE00D87B2E /* Build configuration list for PBXNativeTarget "CoChoTests" */;
+			buildPhases = (
+				89DA15802EF2A4CE00D87B2E /* Sources */,
+				89DA15812EF2A4CE00D87B2E /* Frameworks */,
+				89DA15822EF2A4CE00D87B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DA15862EF2A4CE00D87B2E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				89DA15872EF2A4CE00D87B2E /* CoChoTests */,
+			);
+			name = CoChoTests;
+			packageProductDependencies = (
+			);
+			productName = CoChoTests;
+			productReference = 89DA15842EF2A4CE00D87B2E /* CoChoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89DA158D2EF2A4CE00D87B2E /* CoChoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DA159E2EF2A4CE00D87B2E /* Build configuration list for PBXNativeTarget "CoChoUITests" */;
+			buildPhases = (
+				89DA158A2EF2A4CE00D87B2E /* Sources */,
+				89DA158B2EF2A4CE00D87B2E /* Frameworks */,
+				89DA158C2EF2A4CE00D87B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DA15902EF2A4CE00D87B2E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				89DA15912EF2A4CE00D87B2E /* CoChoUITests */,
+			);
+			name = CoChoUITests;
+			packageProductDependencies = (
+			);
+			productName = CoChoUITests;
+			productReference = 89DA158E2EF2A4CE00D87B2E /* CoChoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DA156D2EF2A4CD00D87B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					89DA15742EF2A4CD00D87B2E = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					89DA15832EF2A4CE00D87B2E = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 89DA15742EF2A4CD00D87B2E;
+					};
+					89DA158D2EF2A4CE00D87B2E = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 89DA15742EF2A4CD00D87B2E;
+					};
+				};
+			};
+			buildConfigurationList = 89DA15702EF2A4CD00D87B2E /* Build configuration list for PBXProject "CoCho" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89DA156C2EF2A4CD00D87B2E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 89DA15762EF2A4CD00D87B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DA15742EF2A4CD00D87B2E /* CoCho */,
+				89DA15832EF2A4CE00D87B2E /* CoChoTests */,
+				89DA158D2EF2A4CE00D87B2E /* CoChoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89DA15732EF2A4CD00D87B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DA15822EF2A4CE00D87B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DA158C2EF2A4CE00D87B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DA15712EF2A4CD00D87B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DA15802EF2A4CE00D87B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DA158A2EF2A4CE00D87B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89DA15862EF2A4CE00D87B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DA15742EF2A4CD00D87B2E /* CoCho */;
+			targetProxy = 89DA15852EF2A4CE00D87B2E /* PBXContainerItemProxy */;
+		};
+		89DA15902EF2A4CE00D87B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DA15742EF2A4CD00D87B2E /* CoCho */;
+			targetProxy = 89DA158F2EF2A4CE00D87B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89DA15962EF2A4CE00D87B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N49KM57BK5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89DA15972EF2A4CE00D87B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N49KM57BK5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		89DA15992EF2A4CE00D87B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N49KM57BK5;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoCho/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CoChoApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Application needs Bluetooth acces to show connected devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Application needs accest to Bluetooth devices";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "App needs acces to Local Network ";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoCho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		89DA159A2EF2A4CE00D87B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N49KM57BK5;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoCho/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CoChoApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Application needs Bluetooth acces to show connected devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Application needs accest to Bluetooth devices";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "App needs acces to Local Network ";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoCho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		89DA159C2EF2A4CE00D87B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N49KM57BK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoChoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoCho.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoCho";
+			};
+			name = Debug;
+		};
+		89DA159D2EF2A4CE00D87B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N49KM57BK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoChoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoCho.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoCho";
+			};
+			name = Release;
+		};
+		89DA159F2EF2A4CE00D87B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N49KM57BK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoChoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CoCho;
+			};
+			name = Debug;
+		};
+		89DA15A02EF2A4CE00D87B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N49KM57BK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoChoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CoCho;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DA15702EF2A4CD00D87B2E /* Build configuration list for PBXProject "CoCho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DA15962EF2A4CE00D87B2E /* Debug */,
+				89DA15972EF2A4CE00D87B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DA15982EF2A4CE00D87B2E /* Build configuration list for PBXNativeTarget "CoCho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DA15992EF2A4CE00D87B2E /* Debug */,
+				89DA159A2EF2A4CE00D87B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DA159B2EF2A4CE00D87B2E /* Build configuration list for PBXNativeTarget "CoChoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DA159C2EF2A4CE00D87B2E /* Debug */,
+				89DA159D2EF2A4CE00D87B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DA159E2EF2A4CE00D87B2E /* Build configuration list for PBXNativeTarget "CoChoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DA159F2EF2A4CE00D87B2E /* Debug */,
+				89DA15A02EF2A4CE00D87B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89DA156D2EF2A4CD00D87B2E /* Project object */;
+}
