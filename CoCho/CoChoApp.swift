@@ -216,7 +216,7 @@ class BluetoothAudioManager: NSObject, ObservableObject {
 // Switch Current Codec, it is possible it won't work
     func switchCodec(to codec: String) {
         // Prepnutie kodeku - toto vyžaduje nízkoúrovňový prístup k Bluetooth stacku
-        // Na macOS je toto obmedzené a nemusí byť vždy možné
+        // Na macOS je toto nepouzitelne
         
         print("Pokus o prepnutie na kodek: \(codec)")
         
